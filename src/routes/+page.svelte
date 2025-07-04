@@ -3,7 +3,6 @@
 	import * as d3 from 'd3';
 	import { setContext } from 'svelte';
 
-	import '$lib/components/style.css';
 	import DraggableWordCloud from '$lib/components/DraggableWordCloud.svelte';
 	import ComparisonBar from '$lib/components/ComparisonBar.svelte';
 	import DeepDiveCompanies from '$lib/components/SwarmChartComponent.svelte';
@@ -56,8 +55,12 @@
 		content="The beginning of this decade marked a tumultuous time for the tech industry,  as companies around the globe conducted layoffs impacting thousands of workers. However, job cuts don’t always mean business failure. This essay explores data shared on Layoffs FYI using interactive charts."
 	/>
 </svelte:head>
-
-<div class="full-width">
+<header>
+	<div>
+		<img width="100%" src="/nightingale-logo.webp" alt="Nightingale Logo" />
+	</div>
+</header>
+<div>
 	<DraggableWordCloud />
 </div>
 <div class="grid-container dark-bg" style="transform: translate(0, -5em)">
@@ -77,14 +80,6 @@
 			This essay explores data shared on <a href="https://layoffs.fyi/" target="_blank"
 				>Layoffs FYI</a
 			> using interactive charts.
-		</p>
-		<p>
-			In the original dataset, each row represents a layoff announcement in the news. For this
-			analysis, I rolled up the announcement data by company. I also simplified the classification
-			of the funding stage of a company. See <a
-				href="https://www.shanfanhuang.com/the-fuzzy-work/behind-the-scenes"
-				target="_blank">Behind The Scenes</a
-			> for details.
 		</p>
 	</div>
 	<div class="main-content">
@@ -197,6 +192,12 @@
 				>So what did you feel as you moved through this data? What do you take away from all this?</i
 			>
 		</h3>
+		<h2>Notes on data transformation</h2>
+		<p>
+			In the original dataset, each row represents a layoff announcement in the news. For this
+			analysis, the announcement data is grouped by company. The classification of the funding stage
+			of a company is also simplified.
+		</p>
 		<p>
 			For details on how this project came into being, read <a
 				href="https://www.shanfanhuang.com/the-fuzzy-work/behind-the-scenes"
