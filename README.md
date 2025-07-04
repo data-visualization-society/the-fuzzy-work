@@ -1,8 +1,6 @@
 
 # The Fuzzy Work - a visual essay
 
-
-
 ## Developing
 
 Install dependencies with `pnpm install`, and then start a development server:

@@ -53,8 +53,7 @@
 	<title>The Fuzzy Work</title>
 	<meta
 		name="description"
-		content="Between March 11, 2020, and April 16, 2025, tech companies around the globe conducted a series
-			of layoffs, impacting people working in many different industries. This essay explores data shared on Layoffs FYI using interactive charts."
+		content="The beginning of this decade marked a tumultuous time for the tech industry,  as companies around the globe conducted layoffs impacting thousands of workers. However, job cuts don’t always mean business failure. This essay explores data shared on Layoffs FYI using interactive charts."
 	/>
 </svelte:head>
 
@@ -68,11 +67,11 @@
 	</div>
 	<div class="main-content">
 		<p>
-			Between March 11, 2020, and April 16, 2025, tech companies around the globe conducted a series
-			of layoffs, impacting people working in many different industries. However, job cuts don’t
-			always mean business failure; Layoffs in the past five years are often a symptom of
-			macroeconomic shifts. Post-COVID normalization, the end of easy money, and the rise of AI all
-			converged to reshape what tech work looks like.
+			The beginning of this decade marked a tumultuous time for the tech industry, as companies
+			around the globe conducted layoffs impacting thousands of workers. However, job cuts don’t
+			always mean business failure. Layoffs in the past five years have often been a symptom of
+			macroeconomic shifts. Post-COVID normalization, rising interest rates and cautious investors,
+			and the rise of AI all converged to reshape what tech work looks like.
 		</p>
 		<p>
 			This essay explores data shared on <a href="https://layoffs.fyi/" target="_blank"
@@ -82,8 +81,9 @@
 		<p>
 			In the original dataset, each row represents a layoff announcement in the news. For this
 			analysis, I rolled up the announcement data by company. I also simplified the classification
-			of the funding stage of a company. See <a href="the-fuzzy-work/behind-the-scenes"
-				>Behind The Scenes</a
+			of the funding stage of a company. See <a
+				href="https://www.shanfanhuang.com/the-fuzzy-work/behind-the-scenes"
+				target="_blank">Behind The Scenes</a
 			> for details.
 		</p>
 	</div>
@@ -199,7 +199,8 @@
 		</h3>
 		<p>
 			For details on how this project came into being, read <a
-				href="the-fuzzy-work/behind-the-scenes">Behind The Scenes</a
+				href="https://www.shanfanhuang.com/the-fuzzy-work/behind-the-scenes"
+				target="_blank">Behind The Scenes</a
 			>
 			of this project.
 		</p>

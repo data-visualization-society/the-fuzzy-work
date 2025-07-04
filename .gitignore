@@ -21,6 +21,4 @@ vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
 # Assets
-src/lib/videos/bg.mp4
-src/lib/content.md
-src/routes/sandbox
+src/routes/test
