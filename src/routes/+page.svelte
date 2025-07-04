@@ -57,17 +57,20 @@
 </svelte:head>
 <header>
 	<div>
-		<img width="100%" src="/nightingale-logo.webp" alt="Nightingale Logo" />
+		<a href="https://nightingaledvs.com/">
+			<img width="40%" src="/nightingale-logo.webp" alt="Nightingale Logo" />
+		</a>
 	</div>
+	<h1>The Fuzzy Work</h1>
+	<h2>2020-2025: the nebulous shift of the tech industry</h2>
+	<p style="font-size: 0.85em; color: var(--color-light-blue)">
+		by <a href="https://shanfanhuang.com" target="_blank">Shanfan Huang</a>, July, 2025
+	</p>
 </header>
 <div>
 	<DraggableWordCloud />
 </div>
-<div class="grid-container dark-bg" style="transform: translate(0, -5em)">
-	<div class="main-content header">
-		<h1>The Fuzzy Work</h1>
-		<h2>2020-2025: the nebulous shift of the tech industry</h2>
-	</div>
+<div class="container">
 	<div class="main-content">
 		<p>
 			The beginning of this decade marked a tumultuous time for the tech industry, as companies
@@ -134,7 +137,7 @@
 		</p>
 	</aside>
 
-	<ComparisonBarStage />
+	<!-- <ComparisonBarStage /> -->
 	<div class="main-content">
 		<h2>How industry and funding stage cross-compare</h2>
 		<p>
@@ -152,7 +155,7 @@
 		</p>
 	</div>
 
-	<HeatMapChart data={layoffByCompany} />
+	<!-- <HeatMapChart data={layoffByCompany} /> -->
 	<aside>
 		<p class="insight">
 			Many companies in an “Early” funding stage and the “Food” industry have announced a 100%
@@ -168,7 +171,7 @@
 			“Transportation” eliminated most jobs.
 		</p>
 	</aside>
-	<DeepDiveCompanies {relationships} {layoffByCompany} />
+	<!-- <DeepDiveCompanies {relationships} {layoffByCompany} /> -->
 
 	<div style="margin-top: 3em;">
 		<h2>Closing thoughts</h2>
@@ -192,7 +195,7 @@
 				>So what did you feel as you moved through this data? What do you take away from all this?</i
 			>
 		</h3>
-		<h2>Notes on data transformation</h2>
+		<h2>Data and Methods</h2>
 		<p>
 			In the original dataset, each row represents a layoff announcement in the news. For this
 			analysis, the announcement data is grouped by company. The classification of the funding stage

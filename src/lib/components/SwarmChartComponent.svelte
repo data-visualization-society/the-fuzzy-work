@@ -1,7 +1,6 @@
 <script>
 	// @ts-nocheck
 	import * as d3 from 'd3';
-	import './style.css';
 	import SwarmChart from './SwarmChart.svelte';
 	import Bulletin from './SwarmChartBulletin.svelte';
 	import { getContext } from 'svelte';

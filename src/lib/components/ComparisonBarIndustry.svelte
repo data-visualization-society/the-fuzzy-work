@@ -1,7 +1,6 @@
 <script>
 	//@ts-nocheck
 	import { getContext } from 'svelte';
-	import './style.css';
 	import ComparisonBar from './ComparisonBar.svelte';
 	import ComparisonBarBulletin from './ComparisonBarBulletin.svelte';
 	const data = getContext('industryData');

@@ -7,7 +7,6 @@ import { ascending, rollup, sum, max, descending } from 'd3';
 export const prerender = true;
 
 export async function load() {
-    // const proj = "/the-fuzzy-work/"
 
     const [industryRelationships, layoffEvents] = await Promise.all([
         readDataset('IndustryRelationships.csv'),
@@ -69,7 +68,6 @@ export async function load() {
 
     return {
         layoffByCompany: layoffByCompany,
-        relationships: industryRelationships,
-        theme: "light"
+        relationships: industryRelationships
     }
 }

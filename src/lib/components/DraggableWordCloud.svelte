@@ -21,7 +21,7 @@
 
 	const dimensions = {
 		width: 900,
-		height: 450,
+		height: 550,
 		marginTop: 30,
 		marginLeft: 0,
 		marginRight: 60,
@@ -141,7 +141,7 @@
 		x={dimensions.width / 2}
 		y={dimensions.height / 2}
 		fill="var(--dark)"
-		font-size={dimensions.height * 0.8}
+		font-size={dimensions.height * 0.65}
 		font-weight="900"
 	>
 		TECH
@@ -185,11 +185,11 @@
 
 <style>
 	svg {
-		--dark: #221d4f;
+		--dark: #332d72;
 		--lightest: var(--color-light-bg);
 		--lighter: var(--color-lighter-blue);
 		--light: var(--color-light-blue);
-		background: var(--color-dark-bg);
+		background: linear-gradient(var(--color-dark-bg), #6d58bf);
 	}
 
 	text {
