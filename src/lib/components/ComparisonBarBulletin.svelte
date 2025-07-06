@@ -31,6 +31,9 @@
 </div>
 
 <style>
+	p {
+		font-family: var(--font-sans);
+	}
 	.details {
 		background: white;
 		padding: 0.75em;

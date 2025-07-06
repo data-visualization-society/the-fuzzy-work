@@ -27,7 +27,7 @@ body {
 }
 
 header {
-	padding: 1em 2em;
+	padding: 1em 6em;
 	text-align: center;
 }
 
@@ -136,7 +136,8 @@ button:focus:not(:focus-visible) {
 
 /* Layout */
 
-.container {
+.grid-container {
+	max-width: 60em;
 	margin: 2em auto;
 	padding: 1em 2em;
 	display: grid;
@@ -145,34 +146,11 @@ button:focus:not(:focus-visible) {
 	grid-template-rows: auto;
 }
 
-
-
-
-
-/* .full-width {
-	width: 100%;
-}
-
-.grid-container {
-	margin: 3em auto;
-	padding: 2em;
-	max-width: 65em;
-	display: grid;
-	gap: 1em 2em;
-	grid-template-columns: 2fr 1fr;
-}
-
-
-
-.dark-bg {
-	color: var(--color-dark-bg);
-}
-
 .main-content {
 	grid-column: 1 / 1;
-} */
+}
 
-
+*/
 /* Color Theme */
 
 
@@ -185,7 +163,7 @@ button:focus:not(:focus-visible) {
 }
 
 .footnote {
-	font-style: italic;
+	font-size: 16px;
 }
 
 .insight::before {
@@ -214,9 +192,16 @@ button:focus:not(:focus-visible) {
 		grid-column: 2/2;
 	}
 
+	.grid-container {
+		padding: 1em 4em;
+		gap: 1em 2em;
+		grid-template-columns: 2fr 1fr;
+	}
+
 }
 
 @media (min-width: 1024px) {
+
 	h1 {
 		font-size: 6rem;
 	}

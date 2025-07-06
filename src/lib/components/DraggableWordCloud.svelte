@@ -22,9 +22,9 @@
 	const dimensions = {
 		width: 900,
 		height: 550,
-		marginTop: 30,
-		marginLeft: 0,
-		marginRight: 60,
+		marginTop: 10,
+		marginLeft: 10,
+		marginRight: 10,
 		marginBottom: 10
 	};
 	const boundRect = {
@@ -124,7 +124,7 @@
 
 	$effect(() => {
 		simulation
-			.force('center', d3.forceCenter(boundRect.width * 0.6, boundRect.height / 2))
+			.force('center', d3.forceCenter(boundRect.width * 0.5, boundRect.height / 2))
 			.force('y', d3.forceY(boundRect.height / 2).strength(0.2))
 			.force('collide', d3.forceCollide((d) => fontSizeScale(fontSizeAccessor(d))).strength(0.9));
 

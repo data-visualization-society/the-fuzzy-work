@@ -70,7 +70,7 @@
 <div>
 	<DraggableWordCloud />
 </div>
-<div class="container">
+<div class="grid-container">
 	<div class="main-content">
 		<p>
 			The beginning of this decade marked a tumultuous time for the tech industry, as companies
@@ -85,6 +85,7 @@
 			> using interactive charts.
 		</p>
 	</div>
+	<aside></aside>
 	<div class="main-content">
 		<h2>The most impacted industries</h2>
 		<p>
@@ -92,6 +93,7 @@
 			of jobs eliminated in each industry.
 		</p>
 	</div>
+	<aside></aside>
 
 	<ComparisonBarIndustry />
 
@@ -195,6 +197,10 @@
 				>So what did you feel as you moved through this data? What do you take away from all this?</i
 			>
 		</h3>
+	</div>
+
+	<aside></aside>
+	<div class="footnote">
 		<h2>Data and Methods</h2>
 		<p>
 			In the original dataset, each row represents a layoff announcement in the news. For this

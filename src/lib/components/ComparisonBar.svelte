@@ -49,6 +49,9 @@
 </div>
 
 <style>
+	p {
+		font-family: var(--font-sans);
+	}
 	.container {
 		background: white;
 		display: grid;
