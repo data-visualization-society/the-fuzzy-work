@@ -72,25 +72,17 @@
 </div>
 <div class="grid-container">
 	<div class="main-content">
-		<p>
+		<p class="intro">
 			The beginning of this decade marked a tumultuous time for the tech industry, as companies
 			around the globe conducted layoffs impacting thousands of workers. However, job cuts don’t
 			always mean business failure. Layoffs in the past five years have often been a symptom of
 			macroeconomic shifts. Post-COVID normalization, rising interest rates and cautious investors,
-			and the rise of AI all converged to reshape what tech work looks like.
+			and the rise of AI... all converged to reshape what tech work looks like.
 		</p>
 		<p>
 			This essay explores data shared on <a href="https://layoffs.fyi/" target="_blank"
 				>Layoffs FYI</a
 			> using interactive charts.
-		</p>
-	</div>
-	<aside></aside>
-	<div class="main-content">
-		<h2>The most impacted industries</h2>
-		<p>
-			The chart below compares the number of companies that announced layoff events and the number
-			of jobs eliminated in each industry.
 		</p>
 	</div>
 	<aside></aside>
@@ -139,7 +131,7 @@
 		</p>
 	</aside>
 
-	<!-- <ComparisonBarStage /> -->
+	<ComparisonBarStage />
 	<div class="main-content">
 		<h2>How industry and funding stage cross-compare</h2>
 		<p>

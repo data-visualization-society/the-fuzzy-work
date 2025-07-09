@@ -79,6 +79,7 @@
 		background: none;
 		border: none;
 		padding: 0.1em 0;
+		font-size: 16px;
 		color: var(--color-dark-bg);
 	}
 

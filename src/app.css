@@ -150,13 +150,14 @@ button:focus:not(:focus-visible) {
 	grid-column: 1 / 1;
 }
 
-*/
-/* Color Theme */
+.intro {
+	font-size: 1.2rem;
+}
 
-
-
-
-
+.intro::first-letter {
+	initial-letter: 3;
+	padding-right: 0.5em;
+}
 
 .warning {
 	color: #cc5456;
@@ -173,6 +174,16 @@ button:focus:not(:focus-visible) {
 
 .color-encoding {
 	font-size: 0.75rem;
+}
+
+.chart {
+	background-color: white;
+	fill: var(--color-light-blue);
+}
+
+.chart text {
+	font-size: 0.85rem;
+	fill: var(--color-dark-bg)
 }
 
 @media (min-width: 768px) {
