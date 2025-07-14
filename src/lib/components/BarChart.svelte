@@ -9,7 +9,7 @@
 		left: 120,
 		right: 20,
 		top: 30,
-		bottom: 50
+		bottom: 80
 	};
 
 	let bound = $derived({
@@ -67,6 +67,15 @@
 </script>
 
 <svg class="chart" bind:clientWidth={width} bind:clientHeight={height}>
+	<text
+		class="chart-title"
+		x={width / 2}
+		y={height - margin.bottom / 4}
+		text-anchor="middle"
+		alignment-baseline="baseline"
+	>
+		People laid off by industry
+	</text>
 	<g class="axis" transform="translate({margin.left}, {margin.top})">
 		{#each ticks as t}
 			<line x1={xScale(t)} x2={xScale(t)} y1="0" y2={bound.h} />
@@ -107,6 +116,14 @@
 	svg {
 		width: 100%;
 		height: calc(100vh - 2em);
+		min-height: 520px;
+		max-height: 1000px;
+	}
+	.chart-title {
+		font-size: 1rem;
+		text-transform: uppercase;
+		font-weight: 600;
+		fill: var(--color-light-blue);
 	}
 	.bar {
 		height: 0.8rem;
